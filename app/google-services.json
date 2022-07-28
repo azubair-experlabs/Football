@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "299461340874",
+    "project_id": "football-news-fd97f",
+    "storage_bucket": "football-news-fd97f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299461340874:android:1b46ad6a02153fed3fce33",
+        "android_client_info": {
+          "package_name": "com.experlabs.footballnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299461340874-n5boa2evk4jlsumfnh779h5m36qs6p1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1Ou_uAGOxHQ1-Ml5zmQjgvTHRjoDYYR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299461340874-n5boa2evk4jlsumfnh779h5m36qs6p1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_news">
+
+
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.experlabs.footballnews.news.ui.NewsFragment"
+        android:label="@string/title_news"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="com.experlabs.footballnews.gallery.ui.GalleryFragment"
+        android:label="@string/title_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/navigation_teams"
+        android:name="com.experlabs.footballnews.teams.ui.TeamsFragment"
+        android:label="@string/title_teams"
+        tools:layout="@layout/fragment_teams" />
+
+    <fragment
+        android:id="@+id/navigation_players"
+        android:name="com.experlabs.footballnews.players.ui.PlayersFragment"
+        android:label="@string/title_players"
+        tools:layout="@layout/fragment_players" />
+
+    <fragment
+        android:id="@+id/navigation_weather"
+        android:name="com.experlabs.footballnews.weather.ui.WeatherFragment"
+        android:label="@string/title_weather"
+        tools:layout="@layout/fragment_weather" />
+</navigation>

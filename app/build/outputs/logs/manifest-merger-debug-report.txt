@@ -1,0 +1,991 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:2:1-77:12
+INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:2:1-77:12
+INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:2:1-77:12
+INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:2:1-77:12
+MERGED from [androidx.databinding:databinding-adapters:7.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/c393776e662ed7622f348d70b3deec39/transformed/databinding-adapters-7.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-ktx:7.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/6410ef307ff148b836b19c2ba1dc3de8/transformed/databinding-ktx-7.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:7.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/a869b7e41bde3ef8c84fc92360e5c649/transformed/databinding-runtime-7.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/1bd01f22bfce48d1f8ff2db800f8d3dd/transformed/viewbinding-7.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/16a684570c9643852428ebeae3666752/transformed/room-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/5d548ca228f4ac53980f95d839a259a8/transformed/lifecycle-livedata-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/60627246e4514e9eabef31cb080c2228/transformed/navigation-fragment-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/55126e7d7e0c30c154ce5c0c823f9700/transformed/navigation-fragment-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/a4a1c3784da9df7f51b251dbdc3c7658/transformed/fragment-ktx-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/9337c90e23339a96cbcbadfd63ea261c/transformed/navigation-ui-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/73addeb3dfcebcff7ac2f5bb47b8fb72/transformed/navigation-runtime-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/e7d402ff0ed2d2012955d5ac99208882/transformed/navigation-ui-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/633d95411035e0882f1c6376ceef1ffb/transformed/navigation-runtime-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.insert-koin:koin-android:3.2.0-beta-1] /Users/altmashzubair/.gradle/caches/transforms-3/5dda52d6c7c200516380c50b56aeae8c/transformed/koin-android-3.2.0-beta-1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.activity:activity-ktx:1.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/f250230bfb0932e66571da8f9ea3ed5d/transformed/activity-ktx-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/434e4f54469cf0178e2ae60b4ddb0ffa/transformed/navigation-common-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/000c30c0e9c85732fffd941dfe262417/transformed/navigation-common-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/cc3b9dc57246fbc70899db20cd965782/transformed/lifecycle-viewmodel-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/ffa79b9e5c6d11d229b12937ace65069/transformed/core-11.0.1/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/0673bc44a709a0b6c616620e364c4e7c/transformed/lifecycle-runtime-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/815b91d3521135c70bd3fec56363132d/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/5acb7f582690a780a4b0343f0221adff/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/0a25c401e50e7877b48a4176ddaac762/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.material:material:1.6.1] /Users/altmashzubair/.gradle/caches/transforms-3/2f79d170aa4acc7ede7152b9b6510ad5/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/altmashzubair/.gradle/caches/transforms-3/bbf8963e29115ce70f57f159e6390c00/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/be696e0517ebdf28aee60cd2c2039482/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/332a4d0bfaebde8fa98a038c5a201627/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/54497a971e885bc4ba63d64f6f87d231/transformed/glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/c2c71405e7a9e1804cf6c6d573a048c5/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/59d36678338bd35bb61bc2af58f8297a/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:17:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df4b72c2096cff887d675a72e096f453/transformed/firebase-analytics-ktx-21.1.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/d8752551bf06d919dae2d0f176e132e4/transformed/firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/b8fb29e3380c5fef852c9078842b1542/transformed/firebase-database-ktx-20.0.5/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/63dcca9b76f67e0e5652f5630bd9c196/transformed/firebase-storage-ktx-20.0.1/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/c0c456f21193a1886b4572a0c4406e73/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:17:1-62:12
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6f34cd84a353b730cb4ef84d86a1c69c/transformed/firebase-analytics-21.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/altmashzubair/.gradle/caches/transforms-3/f2ca6eb884ac2638d3c736fc98667b2a/transformed/firebase-datatransport-18.1.5/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/febe2f71580893c964945cc347d1a374/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/altmashzubair/.gradle/caches/transforms-3/850dedd5d184841e01ab5a9c6bc09bd8/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/52cd052ea9716afdd46547012d718d83/transformed/firebase-installations-interop-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/09e59777a6e9651e0ea362fdfd85f03c/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/85c36a824de1c612216189157da0862f/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/dacd70a4e8ed4526e3fdfeeefc6913e1/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/ea482110a634c4e02557a9b619d131be/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/2f2e110f22140cc105538658f12e163f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/62687d7504846c409698d53e7896f796/transformed/play-services-measurement-sdk-21.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/45edb4f857f0e3535d44edad5b309177/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/altmashzubair/.gradle/caches/transforms-3/700bbe1b30a2dff09b63cc72b8e0f63e/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/5fb9c9af674f38b12ee2c858370b5c3f/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/66909987e975de34196259278acccf24/transformed/play-services-measurement-sdk-api-21.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/f52f8592bb64a93019145d027e13d597/transformed/play-services-measurement-base-21.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/da8ca805640a2a5c78414938cc61f59b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/97021c4fa9ffbb63a3734bc51e9fac41/transformed/fragment-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/3839b24beb51396c001615c7861299f2/transformed/activity-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3a54c367cbd0ecd0cf6812498b1c1a63/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/48809147f93cde00883463f35606ecd6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/45168e8bf889f955791eeff30f18447a/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/f13d76929223846670aeec135d5a2179/transformed/lifecycle-viewmodel-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/bf6916247bd3a866f451b7c5db2aad79/transformed/lifecycle-viewmodel-savedstate-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/altmashzubair/.gradle/caches/transforms-3/68e660ec69d540ec4e4ad93cb947d580/transformed/core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core-splashscreen:1.0.0-rc01] /Users/altmashzubair/.gradle/caches/transforms-3/253a25a68fdff39b269e2503c7df4a5a/transformed/core-splashscreen-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/6a9467b5b77356b634e24368a612e552/transformed/lifecycle-livedata-core-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/altmashzubair/.gradle/caches/transforms-3/4d0890723c30d0a43dde15d705031c49/transformed/picasso-2.8/AndroidManifest.xml:2:1-14:12
+MERGED from [io.branch.sdk.android:library:5.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/117793df7ed4332e8a34dcde68057f9c/transformed/library-5.2.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/4c22749401930dfe7592fa39872a2cb6/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/5ae2473c809c6b0708840dfe249f631d/transformed/room-runtime-2.4.2/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/24db9140a69ab2131241471321899971/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/5228a7bcca8e16f665de46fbc1feb183/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/639aa54d8d04627a294e7bf2dad4d74f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/a026fccebcaee88283179c451a3cac98/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/eb3666783b93b47f982997b8dda034f1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df185211e89c8ee34c7046f7b5a40a40/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/31f537aec9f9b24efbe3c4ded532b011/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/fba538c10b6c6e60ec2950a696f36deb/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/fa6a98ba59b08d1035658fdbca838626/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/40d019b823a59a7b7b324e2675132f73/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/c4e1cbf2a2ed144a3c5a640ba897db3d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/56f27d3c6a14d5f912d9ebed4087f982/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/altmashzubair/.gradle/caches/transforms-3/c98da5281df5666f5cd05ebb7aaa27c1/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.8.0] /Users/altmashzubair/.gradle/caches/transforms-3/4ed07628e9b8d432e26fb21791ae2dc4/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/78e0a9eaccec8f2221f622600bbca2f3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/2dddc5db26dc34d1dd2a4e060929229c/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/bb59fee2565c60c94aa86ec32b856515/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/205b3facb6962ffd2934a0693c0c90b5/transformed/gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/07eafb3a15080bd39fdacb956731ccfd/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/8c4015e847e969626d2b4586aeb5a362/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/69b605ed638ab710c53c3e53f8556d61/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/2cbca8063c8cff0c930633fd7e2c71c5/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/660147f95430da7a34bb2508b14a419a/transformed/firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/ed227e25308189acee85b9d4e77c5f96/transformed/lifecycle-livedata-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/be8a2876176a48566c5ef521df602881/transformed/lifecycle-livedata-core-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/e32376b4c6aa570089eacfbc4ecd7299/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/a1f64afd2f73cb87054dcf92c1a966ae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/c94097d2d7ba580cf9592b66acd456fb/transformed/lifecycle-runtime-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/e1b395398c652a588b4364f2af959981/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/b9016be94c2a73e4ef4571edb9d7b3dc/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/2d6f0076e9bb8f2e95a21919a5f368dd/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/a70d16ec92fa31d4beaf324d52df3b00/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d51481b8698eff3bc83b5ba173530f46/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/de2ee7d7944923bae93d36a027889aa7/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/8a835578f0fe7c18aa1528648161700b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/0c307699d4c9911fdd150b37c3226878/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d94f3bd91ea0f7467f6c07c680fdbe4/transformed/transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/1b3d0a811b3130d80256c3a29df4ea89/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/26959502c58b69a5e477c677c7636fd3/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.installreferrer:installreferrer:2.2] /Users/altmashzubair/.gradle/caches/transforms-3/82945337f0a5b74c4d603c6e2b04266d/transformed/installreferrer-2.2/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:2:1-77:12
+INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:2:1-77:12
+INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:2:1-77:12
+	package
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:4:5-41
+		INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:2:1-77:12
+		INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:2:1-77:12
+		INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/ffa79b9e5c6d11d229b12937ace65069/transformed/core-11.0.1/AndroidManifest.xml:9:5-67
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/ffa79b9e5c6d11d229b12937ace65069/transformed/core-11.0.1/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/dacd70a4e8ed4526e3fdfeeefc6913e1/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/dacd70a4e8ed4526e3fdfeeefc6913e1/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/66909987e975de34196259278acccf24/transformed/play-services-measurement-sdk-api-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/66909987e975de34196259278acccf24/transformed/play-services-measurement-sdk-api-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:7:5-78
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/ffa79b9e5c6d11d229b12937ace65069/transformed/core-11.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/ffa79b9e5c6d11d229b12937ace65069/transformed/core-11.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/dacd70a4e8ed4526e3fdfeeefc6913e1/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/dacd70a4e8ed4526e3fdfeeefc6913e1/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/66909987e975de34196259278acccf24/transformed/play-services-measurement-sdk-api-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/66909987e975de34196259278acccf24/transformed/play-services-measurement-sdk-api-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:7:22-76
+application
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:9:5-75:19
+MERGED from [io.insert-koin:koin-android:3.2.0-beta-1] /Users/altmashzubair/.gradle/caches/transforms-3/5dda52d6c7c200516380c50b56aeae8c/transformed/koin-android-3.2.0-beta-1/AndroidManifest.xml:7:5-20
+MERGED from [io.insert-koin:koin-android:3.2.0-beta-1] /Users/altmashzubair/.gradle/caches/transforms-3/5dda52d6c7c200516380c50b56aeae8c/transformed/koin-android-3.2.0-beta-1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.material:material:1.6.1] /Users/altmashzubair/.gradle/caches/transforms-3/2f79d170aa4acc7ede7152b9b6510ad5/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] /Users/altmashzubair/.gradle/caches/transforms-3/2f79d170aa4acc7ede7152b9b6510ad5/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/altmashzubair/.gradle/caches/transforms-3/bbf8963e29115ce70f57f159e6390c00/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/altmashzubair/.gradle/caches/transforms-3/bbf8963e29115ce70f57f159e6390c00/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/332a4d0bfaebde8fa98a038c5a201627/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/332a4d0bfaebde8fa98a038c5a201627/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/54497a971e885bc4ba63d64f6f87d231/transformed/glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/54497a971e885bc4ba63d64f6f87d231/transformed/glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/59d36678338bd35bb61bc2af58f8297a/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/59d36678338bd35bb61bc2af58f8297a/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:25:5-33:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:25:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df4b72c2096cff887d675a72e096f453/transformed/firebase-analytics-ktx-21.1.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df4b72c2096cff887d675a72e096f453/transformed/firebase-analytics-ktx-21.1.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/d8752551bf06d919dae2d0f176e132e4/transformed/firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/d8752551bf06d919dae2d0f176e132e4/transformed/firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/b8fb29e3380c5fef852c9078842b1542/transformed/firebase-database-ktx-20.0.5/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/b8fb29e3380c5fef852c9078842b1542/transformed/firebase-database-ktx-20.0.5/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/63dcca9b76f67e0e5652f5630bd9c196/transformed/firebase-storage-ktx-20.0.1/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/63dcca9b76f67e0e5652f5630bd9c196/transformed/firebase-storage-ktx-20.0.1/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/c0c456f21193a1886b4572a0c4406e73/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/c0c456f21193a1886b4572a0c4406e73/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:31:5-60:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:31:5-60:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6f34cd84a353b730cb4ef84d86a1c69c/transformed/firebase-analytics-21.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6f34cd84a353b730cb4ef84d86a1c69c/transformed/firebase-analytics-21.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/altmashzubair/.gradle/caches/transforms-3/f2ca6eb884ac2638d3c736fc98667b2a/transformed/firebase-datatransport-18.1.5/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/altmashzubair/.gradle/caches/transforms-3/f2ca6eb884ac2638d3c736fc98667b2a/transformed/firebase-datatransport-18.1.5/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/febe2f71580893c964945cc347d1a374/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/febe2f71580893c964945cc347d1a374/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/altmashzubair/.gradle/caches/transforms-3/850dedd5d184841e01ab5a9c6bc09bd8/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/altmashzubair/.gradle/caches/transforms-3/850dedd5d184841e01ab5a9c6bc09bd8/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/85c36a824de1c612216189157da0862f/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/85c36a824de1c612216189157da0862f/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/ea482110a634c4e02557a9b619d131be/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/ea482110a634c4e02557a9b619d131be/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/2f2e110f22140cc105538658f12e163f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/2f2e110f22140cc105538658f12e163f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/62687d7504846c409698d53e7896f796/transformed/play-services-measurement-sdk-21.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/62687d7504846c409698d53e7896f796/transformed/play-services-measurement-sdk-21.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/45edb4f857f0e3535d44edad5b309177/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/45edb4f857f0e3535d44edad5b309177/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/altmashzubair/.gradle/caches/transforms-3/700bbe1b30a2dff09b63cc72b8e0f63e/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/altmashzubair/.gradle/caches/transforms-3/700bbe1b30a2dff09b63cc72b8e0f63e/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/5fb9c9af674f38b12ee2c858370b5c3f/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/5fb9c9af674f38b12ee2c858370b5c3f/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/f52f8592bb64a93019145d027e13d597/transformed/play-services-measurement-base-21.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/f52f8592bb64a93019145d027e13d597/transformed/play-services-measurement-base-21.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/da8ca805640a2a5c78414938cc61f59b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/da8ca805640a2a5c78414938cc61f59b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/altmashzubair/.gradle/caches/transforms-3/4d0890723c30d0a43dde15d705031c49/transformed/picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/altmashzubair/.gradle/caches/transforms-3/4d0890723c30d0a43dde15d705031c49/transformed/picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/5ae2473c809c6b0708840dfe249f631d/transformed/room-runtime-2.4.2/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/5ae2473c809c6b0708840dfe249f631d/transformed/room-runtime-2.4.2/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.8.0] /Users/altmashzubair/.gradle/caches/transforms-3/4ed07628e9b8d432e26fb21791ae2dc4/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/altmashzubair/.gradle/caches/transforms-3/4ed07628e9b8d432e26fb21791ae2dc4/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/205b3facb6962ffd2934a0693c0c90b5/transformed/gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/205b3facb6962ffd2934a0693c0c90b5/transformed/gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/07eafb3a15080bd39fdacb956731ccfd/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/07eafb3a15080bd39fdacb956731ccfd/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/a1f64afd2f73cb87054dcf92c1a966ae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/a1f64afd2f73cb87054dcf92c1a966ae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/a70d16ec92fa31d4beaf324d52df3b00/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/a70d16ec92fa31d4beaf324d52df3b00/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.android.installreferrer:installreferrer:2.2] /Users/altmashzubair/.gradle/caches/transforms-3/82945337f0a5b74c4d603c6e2b04266d/transformed/installreferrer-2.2/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:2.2] /Users/altmashzubair/.gradle/caches/transforms-3/82945337f0a5b74c4d603c6e2b04266d/transformed/installreferrer-2.2/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Users/altmashzubair/.gradle/caches/transforms-3/4ed07628e9b8d432e26fb21791ae2dc4/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:15:9-41
+	android:fullBackupContent
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:13:9-54
+	android:roundIcon
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:16:9-47
+	tools:targetApi
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:20:9-29
+	android:icon
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:14:9-42
+	android:allowBackup
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:18:9-50
+	android:dataExtractionRules
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:12:9-65
+	android:usesCleartextTraffic
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:19:9-44
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:10:9-45
+activity#com.experlabs.footballnews.teams.ui.TeamActivity
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:22:9-26:57
+	android:label
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:24:13-37
+	android:theme
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:26:13-54
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:23:13-50
+activity#com.experlabs.footballnews.players.ui.PlayerActivity
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:27:9-31:57
+	android:label
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:30:13-48
+	android:exported
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:31:13-54
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:28:13-54
+activity#com.experlabs.footballnews.news.ui.YoutubeActivity
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:32:9-38:68
+	android:screenOrientation
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:37:13-50
+	android:label
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:36:13-59
+	android:exported
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:35:13-37
+	android:configChanges
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:34:13-74
+	android:theme
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:38:13-65
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:33:13-52
+activity#com.experlabs.footballnews.portal.ui.PortalActivity
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:39:9-44:57
+	android:parentActivityName
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:43:13-67
+	android:label
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:42:13-58
+	android:exported
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:41:13-37
+	android:theme
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:44:13-54
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:40:13-53
+activity#com.experlabs.footballnews.application.MainActivity
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:45:9-56:20
+	android:label
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:49:13-45
+	android:exported
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:48:13-36
+	android:configChanges
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:47:13-106
+	android:theme
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:50:13-54
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:46:13-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:51:13-55:29
+action#android.intent.action.MAIN
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:52:17-69
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:52:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:54:27-74
+meta-data#com.google.firebase.messaging.default notification_icon
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:58:9-60:53
+	android:resource
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:60:13-50
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:59:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:61:9-63:54
+	android:resource
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:63:13-51
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:62:13-84
+service#com.experlabs.footballnews.fcm.services.FirebaseMessagingService
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:65:9-74:19
+	android:exported
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:67:13-37
+	android:permission
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:68:13-73
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:66:13-66
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.firebase.INSTANCE_ID_EVENT+action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:69:13-73:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:70:17-78
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:70:25-75
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:71:17-81
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:71:25-78
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:72:17-80
+	android:name
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:72:25-77
+uses-sdk
+INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:7.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/c393776e662ed7622f348d70b3deec39/transformed/databinding-adapters-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-adapters:7.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/c393776e662ed7622f348d70b3deec39/transformed/databinding-adapters-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-ktx:7.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/6410ef307ff148b836b19c2ba1dc3de8/transformed/databinding-ktx-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-ktx:7.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/6410ef307ff148b836b19c2ba1dc3de8/transformed/databinding-ktx-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-runtime:7.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/a869b7e41bde3ef8c84fc92360e5c649/transformed/databinding-runtime-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-runtime:7.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/a869b7e41bde3ef8c84fc92360e5c649/transformed/databinding-runtime-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/1bd01f22bfce48d1f8ff2db800f8d3dd/transformed/viewbinding-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/1bd01f22bfce48d1f8ff2db800f8d3dd/transformed/viewbinding-7.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/16a684570c9643852428ebeae3666752/transformed/room-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/16a684570c9643852428ebeae3666752/transformed/room-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/5d548ca228f4ac53980f95d839a259a8/transformed/lifecycle-livedata-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/5d548ca228f4ac53980f95d839a259a8/transformed/lifecycle-livedata-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/60627246e4514e9eabef31cb080c2228/transformed/navigation-fragment-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/60627246e4514e9eabef31cb080c2228/transformed/navigation-fragment-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/55126e7d7e0c30c154ce5c0c823f9700/transformed/navigation-fragment-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/55126e7d7e0c30c154ce5c0c823f9700/transformed/navigation-fragment-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/a4a1c3784da9df7f51b251dbdc3c7658/transformed/fragment-ktx-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/a4a1c3784da9df7f51b251dbdc3c7658/transformed/fragment-ktx-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/9337c90e23339a96cbcbadfd63ea261c/transformed/navigation-ui-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/9337c90e23339a96cbcbadfd63ea261c/transformed/navigation-ui-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/73addeb3dfcebcff7ac2f5bb47b8fb72/transformed/navigation-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/73addeb3dfcebcff7ac2f5bb47b8fb72/transformed/navigation-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/e7d402ff0ed2d2012955d5ac99208882/transformed/navigation-ui-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/e7d402ff0ed2d2012955d5ac99208882/transformed/navigation-ui-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/633d95411035e0882f1c6376ceef1ffb/transformed/navigation-runtime-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/633d95411035e0882f1c6376ceef1ffb/transformed/navigation-runtime-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.insert-koin:koin-android:3.2.0-beta-1] /Users/altmashzubair/.gradle/caches/transforms-3/5dda52d6c7c200516380c50b56aeae8c/transformed/koin-android-3.2.0-beta-1/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:3.2.0-beta-1] /Users/altmashzubair/.gradle/caches/transforms-3/5dda52d6c7c200516380c50b56aeae8c/transformed/koin-android-3.2.0-beta-1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/f250230bfb0932e66571da8f9ea3ed5d/transformed/activity-ktx-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/f250230bfb0932e66571da8f9ea3ed5d/transformed/activity-ktx-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/434e4f54469cf0178e2ae60b4ddb0ffa/transformed/navigation-common-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/434e4f54469cf0178e2ae60b4ddb0ffa/transformed/navigation-common-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/000c30c0e9c85732fffd941dfe262417/transformed/navigation-common-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/000c30c0e9c85732fffd941dfe262417/transformed/navigation-common-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/cc3b9dc57246fbc70899db20cd965782/transformed/lifecycle-viewmodel-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/cc3b9dc57246fbc70899db20cd965782/transformed/lifecycle-viewmodel-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/ffa79b9e5c6d11d229b12937ace65069/transformed/core-11.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/ffa79b9e5c6d11d229b12937ace65069/transformed/core-11.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/0673bc44a709a0b6c616620e364c4e7c/transformed/lifecycle-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/0673bc44a709a0b6c616620e364c4e7c/transformed/lifecycle-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/815b91d3521135c70bd3fec56363132d/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/815b91d3521135c70bd3fec56363132d/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/5acb7f582690a780a4b0343f0221adff/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/5acb7f582690a780a4b0343f0221adff/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/0a25c401e50e7877b48a4176ddaac762/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/0a25c401e50e7877b48a4176ddaac762/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/altmashzubair/.gradle/caches/transforms-3/2f79d170aa4acc7ede7152b9b6510ad5/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/altmashzubair/.gradle/caches/transforms-3/2f79d170aa4acc7ede7152b9b6510ad5/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/altmashzubair/.gradle/caches/transforms-3/bbf8963e29115ce70f57f159e6390c00/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/altmashzubair/.gradle/caches/transforms-3/bbf8963e29115ce70f57f159e6390c00/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/be696e0517ebdf28aee60cd2c2039482/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/be696e0517ebdf28aee60cd2c2039482/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/332a4d0bfaebde8fa98a038c5a201627/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/332a4d0bfaebde8fa98a038c5a201627/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/54497a971e885bc4ba63d64f6f87d231/transformed/glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/54497a971e885bc4ba63d64f6f87d231/transformed/glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/c2c71405e7a9e1804cf6c6d573a048c5/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/c2c71405e7a9e1804cf6c6d573a048c5/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/59d36678338bd35bb61bc2af58f8297a/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/59d36678338bd35bb61bc2af58f8297a/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df4b72c2096cff887d675a72e096f453/transformed/firebase-analytics-ktx-21.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df4b72c2096cff887d675a72e096f453/transformed/firebase-analytics-ktx-21.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/d8752551bf06d919dae2d0f176e132e4/transformed/firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/d8752551bf06d919dae2d0f176e132e4/transformed/firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/b8fb29e3380c5fef852c9078842b1542/transformed/firebase-database-ktx-20.0.5/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/b8fb29e3380c5fef852c9078842b1542/transformed/firebase-database-ktx-20.0.5/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/63dcca9b76f67e0e5652f5630bd9c196/transformed/firebase-storage-ktx-20.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/63dcca9b76f67e0e5652f5630bd9c196/transformed/firebase-storage-ktx-20.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/c0c456f21193a1886b4572a0c4406e73/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/c0c456f21193a1886b4572a0c4406e73/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6f34cd84a353b730cb4ef84d86a1c69c/transformed/firebase-analytics-21.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6f34cd84a353b730cb4ef84d86a1c69c/transformed/firebase-analytics-21.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/altmashzubair/.gradle/caches/transforms-3/f2ca6eb884ac2638d3c736fc98667b2a/transformed/firebase-datatransport-18.1.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/altmashzubair/.gradle/caches/transforms-3/f2ca6eb884ac2638d3c736fc98667b2a/transformed/firebase-datatransport-18.1.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/febe2f71580893c964945cc347d1a374/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/febe2f71580893c964945cc347d1a374/transformed/firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/altmashzubair/.gradle/caches/transforms-3/850dedd5d184841e01ab5a9c6bc09bd8/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/altmashzubair/.gradle/caches/transforms-3/850dedd5d184841e01ab5a9c6bc09bd8/transformed/firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/52cd052ea9716afdd46547012d718d83/transformed/firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/52cd052ea9716afdd46547012d718d83/transformed/firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/09e59777a6e9651e0ea362fdfd85f03c/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/09e59777a6e9651e0ea362fdfd85f03c/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/85c36a824de1c612216189157da0862f/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/85c36a824de1c612216189157da0862f/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/dacd70a4e8ed4526e3fdfeeefc6913e1/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/dacd70a4e8ed4526e3fdfeeefc6913e1/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/ea482110a634c4e02557a9b619d131be/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/ea482110a634c4e02557a9b619d131be/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/2f2e110f22140cc105538658f12e163f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/2f2e110f22140cc105538658f12e163f/transformed/play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/62687d7504846c409698d53e7896f796/transformed/play-services-measurement-sdk-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/62687d7504846c409698d53e7896f796/transformed/play-services-measurement-sdk-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/45edb4f857f0e3535d44edad5b309177/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/45edb4f857f0e3535d44edad5b309177/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/altmashzubair/.gradle/caches/transforms-3/700bbe1b30a2dff09b63cc72b8e0f63e/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/altmashzubair/.gradle/caches/transforms-3/700bbe1b30a2dff09b63cc72b8e0f63e/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/5fb9c9af674f38b12ee2c858370b5c3f/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/5fb9c9af674f38b12ee2c858370b5c3f/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/66909987e975de34196259278acccf24/transformed/play-services-measurement-sdk-api-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/66909987e975de34196259278acccf24/transformed/play-services-measurement-sdk-api-21.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/f52f8592bb64a93019145d027e13d597/transformed/play-services-measurement-base-21.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/f52f8592bb64a93019145d027e13d597/transformed/play-services-measurement-base-21.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/da8ca805640a2a5c78414938cc61f59b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/da8ca805640a2a5c78414938cc61f59b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/97021c4fa9ffbb63a3734bc51e9fac41/transformed/fragment-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/97021c4fa9ffbb63a3734bc51e9fac41/transformed/fragment-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/3839b24beb51396c001615c7861299f2/transformed/activity-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/3839b24beb51396c001615c7861299f2/transformed/activity-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3a54c367cbd0ecd0cf6812498b1c1a63/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3a54c367cbd0ecd0cf6812498b1c1a63/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/48809147f93cde00883463f35606ecd6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/48809147f93cde00883463f35606ecd6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/45168e8bf889f955791eeff30f18447a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/45168e8bf889f955791eeff30f18447a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/f13d76929223846670aeec135d5a2179/transformed/lifecycle-viewmodel-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/f13d76929223846670aeec135d5a2179/transformed/lifecycle-viewmodel-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/bf6916247bd3a866f451b7c5db2aad79/transformed/lifecycle-viewmodel-savedstate-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/bf6916247bd3a866f451b7c5db2aad79/transformed/lifecycle-viewmodel-savedstate-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/altmashzubair/.gradle/caches/transforms-3/68e660ec69d540ec4e4ad93cb947d580/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/altmashzubair/.gradle/caches/transforms-3/68e660ec69d540ec4e4ad93cb947d580/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-splashscreen:1.0.0-rc01] /Users/altmashzubair/.gradle/caches/transforms-3/253a25a68fdff39b269e2503c7df4a5a/transformed/core-splashscreen-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.0-rc01] /Users/altmashzubair/.gradle/caches/transforms-3/253a25a68fdff39b269e2503c7df4a5a/transformed/core-splashscreen-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/6a9467b5b77356b634e24368a612e552/transformed/lifecycle-livedata-core-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/6a9467b5b77356b634e24368a612e552/transformed/lifecycle-livedata-core-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/altmashzubair/.gradle/caches/transforms-3/4d0890723c30d0a43dde15d705031c49/transformed/picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/altmashzubair/.gradle/caches/transforms-3/4d0890723c30d0a43dde15d705031c49/transformed/picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [io.branch.sdk.android:library:5.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/117793df7ed4332e8a34dcde68057f9c/transformed/library-5.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.branch.sdk.android:library:5.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/117793df7ed4332e8a34dcde68057f9c/transformed/library-5.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/4c22749401930dfe7592fa39872a2cb6/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/4c22749401930dfe7592fa39872a2cb6/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/5ae2473c809c6b0708840dfe249f631d/transformed/room-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/5ae2473c809c6b0708840dfe249f631d/transformed/room-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/24db9140a69ab2131241471321899971/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/24db9140a69ab2131241471321899971/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/5228a7bcca8e16f665de46fbc1feb183/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/5228a7bcca8e16f665de46fbc1feb183/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/639aa54d8d04627a294e7bf2dad4d74f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/639aa54d8d04627a294e7bf2dad4d74f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/a026fccebcaee88283179c451a3cac98/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/a026fccebcaee88283179c451a3cac98/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/eb3666783b93b47f982997b8dda034f1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/eb3666783b93b47f982997b8dda034f1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df185211e89c8ee34c7046f7b5a40a40/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df185211e89c8ee34c7046f7b5a40a40/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/31f537aec9f9b24efbe3c4ded532b011/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/31f537aec9f9b24efbe3c4ded532b011/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/fba538c10b6c6e60ec2950a696f36deb/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/altmashzubair/.gradle/caches/transforms-3/fba538c10b6c6e60ec2950a696f36deb/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/fa6a98ba59b08d1035658fdbca838626/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/fa6a98ba59b08d1035658fdbca838626/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/40d019b823a59a7b7b324e2675132f73/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/40d019b823a59a7b7b324e2675132f73/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/c4e1cbf2a2ed144a3c5a640ba897db3d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/c4e1cbf2a2ed144a3c5a640ba897db3d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/56f27d3c6a14d5f912d9ebed4087f982/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/56f27d3c6a14d5f912d9ebed4087f982/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.4.1] /Users/altmashzubair/.gradle/caches/transforms-3/c98da5281df5666f5cd05ebb7aaa27c1/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/altmashzubair/.gradle/caches/transforms-3/c98da5281df5666f5cd05ebb7aaa27c1/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/altmashzubair/.gradle/caches/transforms-3/4ed07628e9b8d432e26fb21791ae2dc4/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/altmashzubair/.gradle/caches/transforms-3/4ed07628e9b8d432e26fb21791ae2dc4/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/78e0a9eaccec8f2221f622600bbca2f3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/78e0a9eaccec8f2221f622600bbca2f3/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/2dddc5db26dc34d1dd2a4e060929229c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/2dddc5db26dc34d1dd2a4e060929229c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/bb59fee2565c60c94aa86ec32b856515/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/bb59fee2565c60c94aa86ec32b856515/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/205b3facb6962ffd2934a0693c0c90b5/transformed/gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/205b3facb6962ffd2934a0693c0c90b5/transformed/gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/07eafb3a15080bd39fdacb956731ccfd/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/07eafb3a15080bd39fdacb956731ccfd/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/8c4015e847e969626d2b4586aeb5a362/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/8c4015e847e969626d2b4586aeb5a362/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/69b605ed638ab710c53c3e53f8556d61/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/69b605ed638ab710c53c3e53f8556d61/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/2cbca8063c8cff0c930633fd7e2c71c5/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/2cbca8063c8cff0c930633fd7e2c71c5/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/660147f95430da7a34bb2508b14a419a/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/660147f95430da7a34bb2508b14a419a/transformed/firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/ed227e25308189acee85b9d4e77c5f96/transformed/lifecycle-livedata-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/ed227e25308189acee85b9d4e77c5f96/transformed/lifecycle-livedata-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/be8a2876176a48566c5ef521df602881/transformed/lifecycle-livedata-core-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/be8a2876176a48566c5ef521df602881/transformed/lifecycle-livedata-core-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/e32376b4c6aa570089eacfbc4ecd7299/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/e32376b4c6aa570089eacfbc4ecd7299/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/a1f64afd2f73cb87054dcf92c1a966ae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/a1f64afd2f73cb87054dcf92c1a966ae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/c94097d2d7ba580cf9592b66acd456fb/transformed/lifecycle-runtime-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] /Users/altmashzubair/.gradle/caches/transforms-3/c94097d2d7ba580cf9592b66acd456fb/transformed/lifecycle-runtime-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/e1b395398c652a588b4364f2af959981/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/e1b395398c652a588b4364f2af959981/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/b9016be94c2a73e4ef4571edb9d7b3dc/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/b9016be94c2a73e4ef4571edb9d7b3dc/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/2d6f0076e9bb8f2e95a21919a5f368dd/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/altmashzubair/.gradle/caches/transforms-3/2d6f0076e9bb8f2e95a21919a5f368dd/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/a70d16ec92fa31d4beaf324d52df3b00/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/a70d16ec92fa31d4beaf324d52df3b00/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d51481b8698eff3bc83b5ba173530f46/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d51481b8698eff3bc83b5ba173530f46/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/de2ee7d7944923bae93d36a027889aa7/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/de2ee7d7944923bae93d36a027889aa7/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/8a835578f0fe7c18aa1528648161700b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/8a835578f0fe7c18aa1528648161700b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/0c307699d4c9911fdd150b37c3226878/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/0c307699d4c9911fdd150b37c3226878/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d94f3bd91ea0f7467f6c07c680fdbe4/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d94f3bd91ea0f7467f6c07c680fdbe4/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/1b3d0a811b3130d80256c3a29df4ea89/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/1b3d0a811b3130d80256c3a29df4ea89/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/26959502c58b69a5e477c677c7636fd3/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/26959502c58b69a5e477c677c7636fd3/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.installreferrer:installreferrer:2.2] /Users/altmashzubair/.gradle/caches/transforms-3/82945337f0a5b74c4d603c6e2b04266d/transformed/installreferrer-2.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:2.2] /Users/altmashzubair/.gradle/caches/transforms-3/82945337f0a5b74c4d603c6e2b04266d/transformed/installreferrer-2.2/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+		ADDED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/332a4d0bfaebde8fa98a038c5a201627/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:11:9-13:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/332a4d0bfaebde8fa98a038c5a201627/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/332a4d0bfaebde8fa98a038c5a201627/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:12:13-84
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:26:9-32:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df4b72c2096cff887d675a72e096f453/transformed/firebase-analytics-ktx-21.1.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df4b72c2096cff887d675a72e096f453/transformed/firebase-analytics-ktx-21.1.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/d8752551bf06d919dae2d0f176e132e4/transformed/firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/d8752551bf06d919dae2d0f176e132e4/transformed/firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/b8fb29e3380c5fef852c9078842b1542/transformed/firebase-database-ktx-20.0.5/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/b8fb29e3380c5fef852c9078842b1542/transformed/firebase-database-ktx-20.0.5/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/63dcca9b76f67e0e5652f5630bd9c196/transformed/firebase-storage-ktx-20.0.1/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/63dcca9b76f67e0e5652f5630bd9c196/transformed/firebase-storage-ktx-20.0.1/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/c0c456f21193a1886b4572a0c4406e73/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/c0c456f21193a1886b4572a0c4406e73/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:53:9-59:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:53:9-59:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/altmashzubair/.gradle/caches/transforms-3/f2ca6eb884ac2638d3c736fc98667b2a/transformed/firebase-datatransport-18.1.5/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/altmashzubair/.gradle/caches/transforms-3/f2ca6eb884ac2638d3c736fc98667b2a/transformed/firebase-datatransport-18.1.5/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:28:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:27:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:30:17-126
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df4b72c2096cff887d675a72e096f453/transformed/firebase-analytics-ktx-21.1.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df4b72c2096cff887d675a72e096f453/transformed/firebase-analytics-ktx-21.1.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df4b72c2096cff887d675a72e096f453/transformed/firebase-analytics-ktx-21.1.0/AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/d8752551bf06d919dae2d0f176e132e4/transformed/firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/d8752551bf06d919dae2d0f176e132e4/transformed/firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/d8752551bf06d919dae2d0f176e132e4/transformed/firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:28:17-130
+meta-data#com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/b8fb29e3380c5fef852c9078842b1542/transformed/firebase-database-ktx-20.0.5/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/b8fb29e3380c5fef852c9078842b1542/transformed/firebase-database-ktx-20.0.5/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database-ktx:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/b8fb29e3380c5fef852c9078842b1542/transformed/firebase-database-ktx-20.0.5/AndroidManifest.xml:16:17-124
+meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage-ktx:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/63dcca9b76f67e0e5652f5630bd9c196/transformed/firebase-storage-ktx-20.0.1/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/63dcca9b76f67e0e5652f5630bd9c196/transformed/firebase-storage-ktx-20.0.1/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/63dcca9b76f67e0e5652f5630bd9c196/transformed/firebase-storage-ktx-20.0.1/AndroidManifest.xml:16:17-122
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/c0c456f21193a1886b4572a0c4406e73/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/c0c456f21193a1886b4572a0c4406e73/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/c0c456f21193a1886b4572a0c4406e73/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:16:17-113
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:19:17-115
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:26:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/dacd70a4e8ed4526e3fdfeeefc6913e1/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/dacd70a4e8ed4526e3fdfeeefc6913e1/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/66909987e975de34196259278acccf24/transformed/play-services-measurement-sdk-api-21.1.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/66909987e975de34196259278acccf24/transformed/play-services-measurement-sdk-api-21.1.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:27:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:29:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/dacd70a4e8ed4526e3fdfeeefc6913e1/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/dacd70a4e8ed4526e3fdfeeefc6913e1/transformed/play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:29:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:32:9-39:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:33:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:36:13-38:29
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:45:9-52:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:48:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:47:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:46:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:49:13-51:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:49:28-51
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:56:13-58:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:58:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:57:17-119
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:34:17-107
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/5fb9c9af674f38b12ee2c858370b5c3f/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/5fb9c9af674f38b12ee2c858370b5c3f/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/66909987e975de34196259278acccf24/transformed/play-services-measurement-sdk-api-21.1.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/66909987e975de34196259278acccf24/transformed/play-services-measurement-sdk-api-21.1.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/altmashzubair/.gradle/caches/transforms-3/f2ca6eb884ac2638d3c736fc98667b2a/transformed/firebase-datatransport-18.1.5/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/altmashzubair/.gradle/caches/transforms-3/f2ca6eb884ac2638d3c736fc98667b2a/transformed/firebase-datatransport-18.1.5/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.5] /Users/altmashzubair/.gradle/caches/transforms-3/f2ca6eb884ac2638d3c736fc98667b2a/transformed/firebase-datatransport-18.1.5/AndroidManifest.xml:29:17-115
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/85c36a824de1c612216189157da0862f/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/85c36a824de1c612216189157da0862f/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/85c36a824de1c612216189157da0862f/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/85c36a824de1c612216189157da0862f/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/31a17412ed1ed11790d5f83be0d99117/transformed/play-services-measurement-impl-21.1.0/AndroidManifest.xml:26:5-110
+MERGED from [com.android.installreferrer:installreferrer:2.2] /Users/altmashzubair/.gradle/caches/transforms-3/82945337f0a5b74c4d603c6e2b04266d/transformed/installreferrer-2.2/AndroidManifest.xml:9:5-110
+MERGED from [com.android.installreferrer:installreferrer:2.2] /Users/altmashzubair/.gradle/caches/transforms-3/82945337f0a5b74c4d603c6e2b04266d/transformed/installreferrer-2.2/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/da8ca805640a2a5c78414938cc61f59b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/da8ca805640a2a5c78414938cc61f59b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/da8ca805640a2a5c78414938cc61f59b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.8] /Users/altmashzubair/.gradle/caches/transforms-3/4d0890723c30d0a43dde15d705031c49/transformed/picasso-2.8/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/altmashzubair/.gradle/caches/transforms-3/4d0890723c30d0a43dde15d705031c49/transformed/picasso-2.8/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/altmashzubair/.gradle/caches/transforms-3/4d0890723c30d0a43dde15d705031c49/transformed/picasso-2.8/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/altmashzubair/.gradle/caches/transforms-3/4d0890723c30d0a43dde15d705031c49/transformed/picasso-2.8/AndroidManifest.xml:9:13-64
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/5ae2473c809c6b0708840dfe249f631d/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/5ae2473c809c6b0708840dfe249f631d/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/5ae2473c809c6b0708840dfe249f631d/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/5ae2473c809c6b0708840dfe249f631d/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/a1f64afd2f73cb87054dcf92c1a966ae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/a1f64afd2f73cb87054dcf92c1a966ae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/a70d16ec92fa31d4beaf324d52df3b00/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/a70d16ec92fa31d4beaf324d52df3b00/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/a1f64afd2f73cb87054dcf92c1a966ae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/a1f64afd2f73cb87054dcf92c1a966ae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/a1f64afd2f73cb87054dcf92c1a966ae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:33:13-132

@@ -1,0 +1,440 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.experlabs.footballnews"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:7:5-78
+12-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:26:5-77
+13-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:26:22-74
+14    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:27:5-68
+14-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:27:22-65
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:29:5-82
+15-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:29:22-79
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:25:5-79
+16-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:25:22-76
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:26:22-107
+18
+19    <application
+19-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:9:5-75:19
+20        android:name="com.experlabs.footballnews.application.Football"
+20-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:10:9-45
+21        android:allowBackup="true"
+21-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:11:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.8.0] /Users/altmashzubair/.gradle/caches/transforms-3/4ed07628e9b8d432e26fb21791ae2dc4/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:12:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:13:9-54
+27        android:icon="@drawable/football"
+27-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:14:9-42
+28        android:label="@string/app_name"
+28-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:15:9-41
+29        android:roundIcon="@drawable/football"
+29-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:16:9-47
+30        android:supportsRtl="true"
+30-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:17:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.App.Starting"
+32-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:18:9-50
+33        android:usesCleartextTraffic="true" >
+33-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:19:9-44
+34        <activity
+34-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:22:9-26:57
+35            android:name="com.experlabs.footballnews.teams.ui.TeamActivity"
+35-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:23:13-50
+36            android:exported="false"
+36-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:24:13-37
+37            android:label="@string/team_name"
+37-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:25:13-46
+38            android:theme="@style/Theme.FootballNews" />
+38-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:26:13-54
+39        <activity
+39-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:27:9-31:57
+40            android:name="com.experlabs.footballnews.players.ui.PlayerActivity"
+40-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:28:13-54
+41            android:exported="false"
+41-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:29:13-37
+42            android:label="@string/player_name"
+42-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:30:13-48
+43            android:theme="@style/Theme.FootballNews" />
+43-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:31:13-54
+44        <activity
+44-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:32:9-38:68
+45            android:name="com.experlabs.footballnews.news.ui.YoutubeActivity"
+45-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:33:13-52
+46            android:configChanges="orientation|keyboardHidden|screenSize"
+46-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:34:13-74
+47            android:exported="false"
+47-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:35:13-37
+48            android:label="@string/title_activity_youtube"
+48-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:36:13-59
+49            android:screenOrientation="landscape"
+49-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:37:13-50
+50            android:theme="@style/Theme.App.Starting.Fullscreen" />
+50-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:38:13-65
+51        <activity
+51-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:39:9-44:57
+52            android:name="com.experlabs.footballnews.portal.ui.PortalActivity"
+52-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:40:13-53
+53            android:exported="false"
+53-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:41:13-37
+54            android:label="@string/title_activity_portal"
+54-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:42:13-58
+55            android:parentActivityName="com.experlabs.footballnews.application.MainActivity"
+55-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:43:13-67
+56            android:theme="@style/Theme.FootballNews" />
+56-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:44:13-54
+57        <activity
+57-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:45:9-56:20
+58            android:name="com.experlabs.footballnews.application.MainActivity"
+58-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:46:13-53
+59            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+59-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:47:13-106
+60            android:exported="true"
+60-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:48:13-36
+61            android:label="@string/app_name"
+61-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:49:13-45
+62            android:theme="@style/Theme.App.Starting" >
+62-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:50:13-54
+63            <intent-filter>
+63-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:51:13-55:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:52:17-69
+64-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:52:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:54:17-77
+66-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:54:27-74
+67            </intent-filter>
+68        </activity>
+69
+70        <meta-data
+70-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:58:9-60:53
+71            android:name="com.google.firebase.messaging.default notification_icon"
+71-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:59:13-83
+72            android:resource="@drawable/football" />
+72-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:60:13-50
+73        <meta-data
+73-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:61:9-63:54
+74            android:name="com.google.firebase.messaging.default_notification_color"
+74-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:62:13-84
+75            android:resource="@color/primary_blue" />
+75-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:63:13-51
+76
+77        <service
+77-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:65:9-74:19
+78            android:name="com.experlabs.footballnews.fcm.services.FirebaseMessagingService"
+78-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:66:13-66
+79            android:exported="false"
+79-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:67:13-37
+80            android:permission="com.google.android.c2dm.permission.SEND" >
+80-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:68:13-73
+81            <intent-filter>
+81-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:69:13-73:29
+82                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+82-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:70:17-78
+82-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:70:25-75
+83                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+83-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:71:17-81
+83-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:71:25-78
+84                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+84-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:72:17-80
+84-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:72:25-77
+85            </intent-filter>
+86        </service>
+87
+88        <uses-library
+88-->[androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+89            android:name="androidx.window.extensions"
+89-->[androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+90            android:required="false" />
+90-->[androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+91        <uses-library
+91-->[androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+92            android:name="androidx.window.sidecar"
+92-->[androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/3f6ae8eb42fcd2de4ca944054d207037/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+94
+95        <meta-data
+95-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/332a4d0bfaebde8fa98a038c5a201627/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:11:9-13:43
+96            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+96-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/332a4d0bfaebde8fa98a038c5a201627/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:12:13-84
+97            android:value="GlideModule" />
+97-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/altmashzubair/.gradle/caches/transforms-3/332a4d0bfaebde8fa98a038c5a201627/transformed/okhttp3-integration-4.11.0/AndroidManifest.xml:13:13-40
+98
+99        <service
+99-->[com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:26:9-32:19
+100            android:name="com.google.firebase.components.ComponentDiscoveryService"
+100-->[com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:27:13-84
+101            android:directBootAware="true"
+101-->[com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+102            android:exported="false" >
+102-->[com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:28:13-37
+103            <meta-data
+103-->[com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:29:13-31:85
+104                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+104-->[com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:30:17-126
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-messaging-ktx:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/12a2665306ad7e739f264fc4d66aa13a/transformed/firebase-messaging-ktx-23.0.6/AndroidManifest.xml:31:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df4b72c2096cff887d675a72e096f453/transformed/firebase-analytics-ktx-21.1.0/AndroidManifest.xml:11:13-13:85
+107                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+107-->[com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df4b72c2096cff887d675a72e096f453/transformed/firebase-analytics-ktx-21.1.0/AndroidManifest.xml:12:17-126
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-analytics-ktx:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/df4b72c2096cff887d675a72e096f453/transformed/firebase-analytics-ktx-21.1.0/AndroidManifest.xml:13:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/d8752551bf06d919dae2d0f176e132e4/transformed/firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:27:13-29:85
+110                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+110-->[com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/d8752551bf06d919dae2d0f176e132e4/transformed/firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:28:17-130
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/d8752551bf06d919dae2d0f176e132e4/transformed/firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:29:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-database-ktx:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/b8fb29e3380c5fef852c9078842b1542/transformed/firebase-database-ktx-20.0.5/AndroidManifest.xml:15:13-17:85
+113                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+113-->[com.google.firebase:firebase-database-ktx:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/b8fb29e3380c5fef852c9078842b1542/transformed/firebase-database-ktx-20.0.5/AndroidManifest.xml:16:17-124
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-database-ktx:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/b8fb29e3380c5fef852c9078842b1542/transformed/firebase-database-ktx-20.0.5/AndroidManifest.xml:17:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-storage-ktx:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/63dcca9b76f67e0e5652f5630bd9c196/transformed/firebase-storage-ktx-20.0.1/AndroidManifest.xml:15:13-17:85
+116                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+116-->[com.google.firebase:firebase-storage-ktx:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/63dcca9b76f67e0e5652f5630bd9c196/transformed/firebase-storage-ktx-20.0.1/AndroidManifest.xml:16:17-122
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-storage-ktx:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/63dcca9b76f67e0e5652f5630bd9c196/transformed/firebase-storage-ktx-20.0.1/AndroidManifest.xml:17:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/c0c456f21193a1886b4572a0c4406e73/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:15:13-17:85
+119                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+119-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/c0c456f21193a1886b4572a0c4406e73/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:16:17-113
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/c0c456f21193a1886b4572a0c4406e73/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:17:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:18:13-20:85
+122                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+122-->[com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:19:17-115
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-crashlytics:18.2.11] /Users/altmashzubair/.gradle/caches/transforms-3/cb4c3d02d684230c0d3120c5aa9f9996/transformed/firebase-crashlytics-18.2.11/AndroidManifest.xml:20:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:56:13-58:85
+125                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+125-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:57:17-119
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:58:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+128                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+128-->[com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-database:20.0.5] /Users/altmashzubair/.gradle/caches/transforms-3/6823487e6b7395ad96f81b8b8baea164/transformed/firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:33:13-35:85
+131                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+131-->[com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:34:17-107
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-storage:20.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/4c70808bc4d5123da7ff3760204d0f0d/transformed/firebase-storage-20.0.1/AndroidManifest.xml:35:17-82
+133            <meta-data
+133-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:31:13-33:85
+134                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+134-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:32:17-139
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/18fcaf871ff64af9851905482589570e/transformed/play-services-measurement-api-21.1.0/AndroidManifest.xml:33:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+137                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+137-->[com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-installations:17.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/1cba972c5b40e8d14d4cb94d3b0be457/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/altmashzubair/.gradle/caches/transforms-3/f2ca6eb884ac2638d3c736fc98667b2a/transformed/firebase-datatransport-18.1.5/AndroidManifest.xml:28:13-30:85
+140                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+140-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/altmashzubair/.gradle/caches/transforms-3/f2ca6eb884ac2638d3c736fc98667b2a/transformed/firebase-datatransport-18.1.5/AndroidManifest.xml:29:17-115
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/altmashzubair/.gradle/caches/transforms-3/f2ca6eb884ac2638d3c736fc98667b2a/transformed/firebase-datatransport-18.1.5/AndroidManifest.xml:30:17-82
+142        </service>
+143
+144        <receiver
+144-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:32:9-39:20
+145            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+145-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:33:13-78
+146            android:exported="true"
+146-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:34:13-36
+147            android:permission="com.google.android.c2dm.permission.SEND" >
+147-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:35:13-73
+148            <intent-filter>
+148-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:36:13-38:29
+149                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+149-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:71:17-81
+149-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:71:25-78
+150            </intent-filter>
+151        </receiver>
+152        <!--
+153             FirebaseMessagingService performs security checks at runtime,
+154             but set to not exported to explicitly avoid allowing another app to call it.
+155        -->
+156        <service
+156-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:45:9-52:19
+157            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+157-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:46:13-82
+158            android:directBootAware="true"
+158-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:47:13-43
+159            android:exported="false" >
+159-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:48:13-37
+160            <intent-filter android:priority="-500" >
+160-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:49:13-51:29
+160-->[com.google.firebase:firebase-messaging:23.0.6] /Users/altmashzubair/.gradle/caches/transforms-3/809c160c93d565d5be312554e3d31dce/transformed/firebase-messaging-23.0.6/AndroidManifest.xml:49:28-51
+161                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+161-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:70:17-78
+161-->/Users/altmashzubair/AndroidStudioProjects/Football/app/src/main/AndroidManifest.xml:70:25-75
+162            </intent-filter>
+163        </service>
+164
+165        <provider
+165-->[com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+166            android:name="com.google.firebase.provider.FirebaseInitProvider"
+166-->[com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+167            android:authorities="com.experlabs.footballnews.firebaseinitprovider"
+167-->[com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+168            android:directBootAware="true"
+168-->[com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+169            android:exported="false"
+169-->[com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+170            android:initOrder="100" />
+170-->[com.google.firebase:firebase-common:20.1.1] /Users/altmashzubair/.gradle/caches/transforms-3/5377be2a8f740970efaebbbc180bc0af/transformed/firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+171
+172        <activity
+172-->[com.google.android.gms:play-services-base:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/85c36a824de1c612216189157da0862f/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+173            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+173-->[com.google.android.gms:play-services-base:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/85c36a824de1c612216189157da0862f/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+174            android:exported="false"
+174-->[com.google.android.gms:play-services-base:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/85c36a824de1c612216189157da0862f/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+175            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+175-->[com.google.android.gms:play-services-base:18.0.1] /Users/altmashzubair/.gradle/caches/transforms-3/85c36a824de1c612216189157da0862f/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+176
+177        <receiver
+177-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:29:9-33:20
+178            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+178-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:30:13-85
+179            android:enabled="true"
+179-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:31:13-35
+180            android:exported="false" >
+180-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:32:13-37
+181        </receiver>
+182
+183        <service
+183-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:35:9-38:40
+184            android:name="com.google.android.gms.measurement.AppMeasurementService"
+184-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:36:13-84
+185            android:enabled="true"
+185-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:37:13-35
+186            android:exported="false" />
+186-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:38:13-37
+187        <service
+187-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:39:9-43:72
+188            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+188-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:40:13-87
+189            android:enabled="true"
+189-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:41:13-35
+190            android:exported="false"
+190-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:42:13-37
+191            android:permission="android.permission.BIND_JOB_SERVICE" />
+191-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/altmashzubair/.gradle/caches/transforms-3/6d6f331011d4d4e4e270bee151c0dba0/transformed/play-services-measurement-21.1.0/AndroidManifest.xml:43:13-69
+192
+193        <meta-data
+193-->[com.google.android.gms:play-services-basement:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/da8ca805640a2a5c78414938cc61f59b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+194            android:name="com.google.android.gms.version"
+194-->[com.google.android.gms:play-services-basement:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/da8ca805640a2a5c78414938cc61f59b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+195            android:value="@integer/google_play_services_version" />
+195-->[com.google.android.gms:play-services-basement:18.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/da8ca805640a2a5c78414938cc61f59b/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+196
+197        <provider
+197-->[com.squareup.picasso:picasso:2.8] /Users/altmashzubair/.gradle/caches/transforms-3/4d0890723c30d0a43dde15d705031c49/transformed/picasso-2.8/AndroidManifest.xml:8:9-11:40
+198            android:name="com.squareup.picasso.PicassoProvider"
+198-->[com.squareup.picasso:picasso:2.8] /Users/altmashzubair/.gradle/caches/transforms-3/4d0890723c30d0a43dde15d705031c49/transformed/picasso-2.8/AndroidManifest.xml:9:13-64
+199            android:authorities="com.experlabs.footballnews.com.squareup.picasso"
+199-->[com.squareup.picasso:picasso:2.8] /Users/altmashzubair/.gradle/caches/transforms-3/4d0890723c30d0a43dde15d705031c49/transformed/picasso-2.8/AndroidManifest.xml:10:13-72
+200            android:exported="false" />
+200-->[com.squareup.picasso:picasso:2.8] /Users/altmashzubair/.gradle/caches/transforms-3/4d0890723c30d0a43dde15d705031c49/transformed/picasso-2.8/AndroidManifest.xml:11:13-37
+201
+202        <service
+202-->[androidx.room:room-runtime:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/5ae2473c809c6b0708840dfe249f631d/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+203            android:name="androidx.room.MultiInstanceInvalidationService"
+203-->[androidx.room:room-runtime:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/5ae2473c809c6b0708840dfe249f631d/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+204            android:directBootAware="true"
+204-->[androidx.room:room-runtime:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/5ae2473c809c6b0708840dfe249f631d/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+205            android:exported="false" />
+205-->[androidx.room:room-runtime:2.4.2] /Users/altmashzubair/.gradle/caches/transforms-3/5ae2473c809c6b0708840dfe249f631d/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+206
+207        <provider
+207-->[androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+208            android:name="androidx.startup.InitializationProvider"
+208-->[androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+209            android:authorities="com.experlabs.footballnews.androidx-startup"
+209-->[androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+210            android:exported="false" >
+210-->[androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+211            <meta-data
+211-->[androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+212                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+212-->[androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+213                android:value="androidx.startup" />
+213-->[androidx.emoji2:emoji2:1.0.0] /Users/altmashzubair/.gradle/caches/transforms-3/d45418e5aa678159ec434de0c04a2b19/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+214            <meta-data
+214-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/a1f64afd2f73cb87054dcf92c1a966ae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+215                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+215-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/a1f64afd2f73cb87054dcf92c1a966ae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+216                android:value="androidx.startup" />
+216-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/altmashzubair/.gradle/caches/transforms-3/a1f64afd2f73cb87054dcf92c1a966ae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+217        </provider>
+218
+219        <service
+219-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:29:9-35:19
+220            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+220-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:30:13-103
+221            android:exported="false" >
+221-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:31:13-37
+222            <meta-data
+222-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:32:13-34:39
+223                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+223-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:33:17-94
+224                android:value="cct" />
+224-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/f21a47ccfa213ca1dca8f965d4d1a3a5/transformed/transport-backend-cct-3.1.6/AndroidManifest.xml:34:17-36
+225        </service>
+226        <service
+226-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:26:9-30:19
+227            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+227-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:27:13-117
+228            android:exported="false"
+228-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:28:13-37
+229            android:permission="android.permission.BIND_JOB_SERVICE" >
+229-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:29:13-69
+230        </service>
+231
+232        <receiver
+232-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:32:9-34:40
+233            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+233-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:33:13-132
+234            android:exported="false" />
+234-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/altmashzubair/.gradle/caches/transforms-3/903d03f847c7b9f661381a9e39a13713/transformed/transport-runtime-3.1.6/AndroidManifest.xml:34:13-37
+235    </application>
+236
+237</manifest>

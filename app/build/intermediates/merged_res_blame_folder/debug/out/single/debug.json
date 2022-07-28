@@ -1,0 +1,322 @@
+[
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_link_popup.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/link_popup.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/anim_zoom_in.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/anim/zoom_in.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_fragment_news.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/fragment_news.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-xhdpi_ic_splash.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-xhdpi/ic_splash.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_fragment_facts.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/fragment_facts.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_fragment_link.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/fragment_link.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-xhdpi_ic_splash_foreground.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-xhdpi/ic_splash_foreground.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_video_item.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/video_item.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_fragment_addpictures.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/fragment_addpictures.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_gallery_item.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/gallery_item.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_fragment_addplayers.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/fragment_addplayers.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/drawable_cloudy_background.webp.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/drawable/cloudy_background.webp"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/drawable_ic_teams.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/drawable/ic_teams.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_fragment_addnews.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/fragment_addnews.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_drawer_header.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/drawer_header.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/anim_recycler_animation.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/anim/recycler_animation.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-xxhdpi_ic_splash_foreground.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-xxhdpi/ic_splash_foreground.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/drawable_ic_news.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/drawable/ic_news.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/drawable_ic_splash.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/drawable/ic_splash.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-anydpi-v26_ic_splash.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-anydpi-v26/ic_splash.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-hdpi_ic_splash_foreground.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-hdpi/ic_splash_foreground.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/anim_slide_up.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/anim/slide_up.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/drawable_ic_gallery.jpeg.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/drawable/ic_gallery.jpeg"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/navigation_mobile_navigation.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_activity_team.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/activity_team.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-mdpi_ic_splash_foreground.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-mdpi/ic_splash_foreground.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_gallery_popup.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/gallery_popup.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/xml_data_extraction_rules.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/anim_fall_down.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/anim/fall_down.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_fragment_gallery.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_activity_youtube.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/activity_youtube.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_team_item.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/team_item.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-xxxhdpi_ic_splash_foreground.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-xxxhdpi/ic_splash_foreground.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-xxxhdpi_ic_splash.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-xxxhdpi/ic_splash.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_activity_player.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/activity_player.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_fragment_about.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/fragment_about.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/drawable_ic_weather.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/drawable/ic_weather.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/anim_lefttoright.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/anim/lefttoright.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/menu_drawer_menu.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/drawable_ic_about.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/drawable/ic_about.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_addplayer_item.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/addplayer_item.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-xxhdpi_ic_splash.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-xxhdpi/ic_splash.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/xml_backup_rules.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/anim_righttoleft.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/anim/righttoleft.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/anim_rotate.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/anim/rotate.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_fragment_players.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/fragment_players.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/anim_slide_down.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/anim/slide_down.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-mdpi_ic_splash.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-mdpi/ic_splash.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_fragment_teams.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/fragment_teams.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/anim_go_up.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/anim/go_up.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/drawable_ic_players.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/drawable/ic_players.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_fact_item.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/fact_item.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_activity_portal.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/activity_portal.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/xml_fragment_news_scene.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/xml/fragment_news_scene.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/anim_fade_in.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_fragment_weather.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/fragment_weather.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/drawable_football.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/drawable/football.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_fragment_addteams.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/fragment_addteams.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_player_item.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/player_item.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_fragment_video.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/fragment_video.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/drawable_weather_wallpaper.jpeg.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/drawable/weather_wallpaper.jpeg"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/mipmap-hdpi_ic_splash.png.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/mipmap-hdpi/ic_splash.png"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_activity_main.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_link_item.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/link_item.xml"
+    },
+    {
+        "merged": "com.experlabs.footballnews.app-merged_res-64:/layout_facts_popup.xml.flat",
+        "source": "com.experlabs.footballnews.app-main-66:/layout/facts_popup.xml"
+    }
+]
